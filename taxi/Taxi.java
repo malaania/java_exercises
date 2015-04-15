@@ -1,6 +1,7 @@
 package com.capgemini.taxi;
 
 public class Taxi {
+	//TODO wszystkie pola powinny być prywatne
 	public int taxiID;
 	public Location taxiCoordinates;
 	public boolean availabilty;

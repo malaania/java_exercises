@@ -13,6 +13,7 @@ import java.util.List;
  *     <li>only penultimate can have two subsequent</li>
  * </ul>
  */
+//TODO Brakuje testów i implementacji
 public class NodeValidators {
     public void validateMethod(List<Node> nodes) {
 

@@ -27,6 +27,8 @@ import java.util.List;
  * represented by A[3].
  */
 public class Coins {
+	//TODO generalnie zadanie jest rozwiązane ok. Niestety kod jest nieczytelny.
+	//postaraj się zbudować jakieś pomocnicze metody.
 	public static int solution(List<Integer> coins) {
 		int sum = 0;
 		boolean found = false;

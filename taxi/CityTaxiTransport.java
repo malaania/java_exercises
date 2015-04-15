@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CityTaxiTransport {
+	//TODO pole powinno być prywatne
 	public List<Taxi> allTaxi; 
 	
 	public CityTaxiTransport() {
@@ -17,6 +18,7 @@ public class CityTaxiTransport {
 		return this;
 	}
 	public CityTaxiTransport removeTaxi(int id){
+		//TODO do usuwania użyj iteratora
 		for(Taxi car: allTaxi){
 			if (car.taxiID == id){
 				allTaxi.remove(car);

@@ -6,6 +6,7 @@ package com.capgemini.fibonacci;
  * 1  1  2  3  5  8  13 21 34 55 89  144 233 377 610 987 1597 2584 4181
  */
 public class Fibonacci {
+	//TODO rozwiąż za pomocą rekurencji, będzie łatwiej i czytelniej. Brakuje testów.
 	public static long fib1(int n) {
 		long fib[] = {1,1};
 		int iteracje = n/2;

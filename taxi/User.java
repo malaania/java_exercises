@@ -35,7 +35,9 @@ public class User {
 	
 	public Taxi takeTaxi(CityTaxiTransport allCars){
 		findNearest(allCars);
+		//TODO == true jest nie potrzebne, jeśli jest puste to nie trzeba przyrównywać do true 
 		if(nearestTaxis.isEmpty() == true){
+			//TODO nie rzucamy NullPointerException, znajdź lepszy wyjątek
 			throw new NullPointerException("No taxi available");
 		}
 		nearestTaxis.get(0).availabilty = false;
