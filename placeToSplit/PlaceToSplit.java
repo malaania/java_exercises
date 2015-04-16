@@ -12,7 +12,7 @@ package com.capgemini.placeToSplit;
 public final class PlaceToSplit {
     private PlaceToSplit() {
     }
-
+    //TODO można zrobić optymalniej ale nie jest źle. Niestety znów nieczytalne.
     public static boolean canBalance(int[] nums) {
         int sum = 0;
         int size = nums.length;

@@ -14,6 +14,7 @@ package com.capgemini.pascalrectangle;
  * 8     1   8   28  56  70  56   28  8   1
  * 9   1   9  36   84  126 126  84  36  9   1
  */
+//TODO rekurencją bedzie łatwiej, użyj rozwiązania lepiej dopasowanego do problemu.
 public class PascalRectangle {
    public static long pascal(int c, int r) {
 	   	if( c<0 || c>r ){

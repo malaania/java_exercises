@@ -26,7 +26,7 @@ public class PokerEngine {
 			.put(asList(3, 2), Hands.FULL) //
 			.build();
 
-	
+	//TODO użyj do czytanie https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
 	public static int checkWinnerFromFile() throws IOException{
 		File pokerFile = new File("C:/Users/anberezo/workspace/javaExercises/src/main/java/com/capgemini/pokerHands/poker.txt");
 		FileReader readPoker = new FileReader(pokerFile);

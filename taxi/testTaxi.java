@@ -3,7 +3,7 @@ package com.capgemini.taxi;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.Test;
-
+//TODO klasa z dużej litery
 public class testTaxi {
 
 	User user0 = new User(0, 0.25, 0.25);
